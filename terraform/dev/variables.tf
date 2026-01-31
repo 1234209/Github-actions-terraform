@@ -1,3 +1,9 @@
-variable "ami" {}
-variable "instance_type" {}
-variable "aws_region" {}
+variable "ami" {
+type = string
+}
+variable "instance_type" {
+type = string
+}
+variable "aws_region" {
+type = string
+}
